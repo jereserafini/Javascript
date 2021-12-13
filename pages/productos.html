@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- SEO -->
+    <meta name="description" content="Nos dedicamos a la venta de impresiones 3D a pedido, tanto al menor como al mayor, realizamos servicio tecnico de impresoras 3D. Vendemos filamentos, resinas, accesorios, repuestos e impresoras 3D">
+    <meta name="keywords" content="TIENDA, PRODUCTOS, IMPRESIÓN 3D, 3D, FILAMENTO, RESINA, IMPRESORA 3D, REPARACIÓN DE IMPRESORAS 3D, ENDER, ARTILLERY, BIQU, NOZZLE, SERVICIO TÉCNICO DE IMPRESORAS 3D">
+        
+    <!-- Animate -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+    <!-- Boostrap -->    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="../css/style.css">
+    
+    <!-- Fuentes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,700;1,100&display=swap" rel="stylesheet">  
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap" rel="stylesheet">
+    
+    <!-- favicon -->
+    <link rel="shortcut icon" href="../image/logo.ico" type="image/x-icon">
+
+    <!-- Titulo -->
+    <title>Impresión 3D | Productos</title>
+
+</head>
+<body>
+
+    <!-- General -->
+    <div class="general">
+
+        <!-- Barra de navegación -->
+            <div class="header col-12">
+                <header class="container">
+                    <nav class="navbar navbar-expand-lg navbar-light">
+                        <a class="navbar-brand" href="../index.html">
+                            <img src="../image/logo.png" class="header__logo" alt="logo">
+                        </a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ml-auto header__navegacion">
+                            <li class="nav-item">
+                            <a class="nav-link active" href="../pages/productos.html">Productos</a>
+                            </li>
+                            <li class="nav-item">
+                            <a class="nav-link" href="../pages/nosotros.html">Nosotros</a>
+                            </li>
+                            <li class="nav-item">
+                            <a class="nav-link" href="../pages/contacto.html">Contacto</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../pages/enviosypagos.html">Envíos y Pagos</a>
+                            </li>
+                        </ul>
+                        <button type="button" id="abrirCarro" class="btn">
+                            <a href="#carro"><img class="pl-5" id="abrirCarro" src="../image/carrito.ico" alt="carrito"></a>
+                        </button>
+                        </div>
+                    </nav>
+                </header>
+            </div>
+        <!-- Fin barra de navegacion -->
+
+
+        <!-- Cuerpo pagina -->
+            <div class="container main">
+                <div class="pb-5">
+                    <section>
+                            <h1>Productos</h1>
+                    </section>
+                </div>
+
+                <!-- Animacion de agregado al carrito (no se ve hasta interactuar) -->
+                <div>
+                    <img class="carrito" src="../image/mas.ico" alt="sumado al carrito">
+                </div>
+
+                <!-- Zona de pintado de productos -->
+                <div class="col-12 main__flex main__padding esquinas p-3 mb-5">
+                    <div id="listaProductos" class="row d-flex align-items-center justify-content-around"></div>         
+                    <div id="carro" class="container-fluid">
+                        <h2>Carrito de Compras</h2><i><a href="https://api.whatsapp.com/send?phone=543624242464" target="_blank"><button class="btn btn-warning btn-lg fondoAmarillo">Realizar Compra</button></a></i>
+                        
+                        <div id="totalismo">
+            
+                        </div>
+            
+                        
+                    </div>   
+                </div>
+            </div>
+        <!-- Fin del cuerpo -->
+
+
+        <!-- Pie de página -->
+            <div class="footer">
+                <footer class="footer__flex container">
+                    <div class="row d-flex align-items-center">
+                        <div class="col-12 col-md-4 footer__padding">
+                            <div class="row d-flex justify-content-center">
+                                <div class="espacio__inferior">
+                                    <img src="../image/direccion.svg" width="25" alt="direccion">
+                                    <label class="medidaP">Resistencia, Chaco</label>
+                                </div>
+                            </div>
+                            <div class="row d-flex justify-content-center">
+                                <div>
+                                    <img src="../image/whatsapp.svg" width="25" alt="whatsapp">
+                                    <label class="medidaP">+54362-4763489</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4 footer__padding d-flex justify-content-center">
+                            <a href="../index.html"><img class="footer__logo" src="../image/logo.png" alt="logo"/></a>
+                        </div>
+                        <div class="medidaP col-12 col-md-4 footer__padding d-flex justify-content-around footer__animacion">
+                            <a href="https://www.facebook.com/groups/impresion3dargenti"><img class="footer__redes" src="../image/facebook.svg" width="35" alt="facebook"></a>
+                            <a href="https://twitter.com/JeremiasSerafin"><img class="footer__redes" src="../image/twitter.svg" width="35" alt="twitter"></a>
+                            <a href="https://www.instagram.com/matriz_3d/"><img class="footer__redes" src="../image/instagram.svg" width="35" alt="instagram"></a>
+                        </div>
+                    </div>
+                    <div class="footer__fin row d-flex justify-content-center align-items-center">
+                        <img src="../image/copyright.svg" alt="copyright">
+                        <p> Copyright 2021<span class="colorAmarillo"> Impresión3D</span></p>
+                    </div>
+                </footer>
+            </div>
+        <!-- Fin del pie -->
+
+
+    </div>
+    <!-- Fin General -->
+
+    <!-- Boostrap -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+
+    <!-- carrito de compras -->
+    <script src="../js/class.js"></script>
+    <script src="../js/main.js"></script>
+</body>
+</html>
